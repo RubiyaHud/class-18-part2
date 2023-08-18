@@ -1,0 +1,138 @@
+/* All common CSS start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+/* All common CSS end */
+
+
+/* My CSS start */
+.sliders {
+    /* background: pink; */
+    background: url(../images/slider_img_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.one {
+    background: url(../images/slider_img_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.two {
+    background: url(../images/slider_img_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.three {
+    /* background: hotpink; */
+    background: url(../images/slider_img_4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    padding: 250px 0;
+    background: rgba(255, 255, 255, 0.7);
+
+}
+
+#slider_part{
+    position: relative;
+}
+.prev{
+    font-size: 50px;
+    color: rgb(202, 20, 20);
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    z-index: 111;
+}
+
+.next{
+    font-size: 50px;
+    color: rgb(202, 20, 20);
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    /* z-index: 111; */
+
+}
+
+#countdown_part{
+    background: url(../images/cards.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-color: #CCC7AA;
+}
+.countdown_overlay{
+    padding-top: 800px;
+    padding-bottom: 100px;
+    background: rgba(255, 255, 255, 0.205);
+}
+.counter_item h3{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Hide/show, Add/Remove, Change part Start */
+#show_hide_add_remove_slideUP_down{
+    padding: 120px 0;
+    background: pink;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    background: teal;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.new_box{
+    height: 250px;
+    width: 250px;
+    background: rgb(97, 219, 219);
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
+/* Hide/show, Add/Remove, Change part End */
+
+/* My CSS end */
